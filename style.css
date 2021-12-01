@@ -5,3 +5,25 @@ Author: Gruppe 8
 Version: 1.0.0
 Description: Stylish Child Theme based on Botiga
 */
+
+/* PLACERING AF "HERO" BILLEDE PÅ HVER SIDE */
+div.wp-block-cover.alignfull {
+  margin-top: -190px;
+}
+
+/* KONTAKTFORMULAR PÅ KONTAKTSIDE */
+textarea {
+  resize: none;
+}
+
+/* KNAP PÅ KONTAKTFORMULAR PÅ KONTAKSIDE */
+button#wpforms-submit-409.wpforms-submit {
+  background-color: #f3a2b1;
+  color: white;
+  border: 2px solid #f3a2b1;
+}
+
+button#wpforms-submit-409.wpforms-submit:hover {
+  color: #f7f1bc;
+  border: 2px solid #f7f1bc;
+}
