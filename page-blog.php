@@ -27,9 +27,9 @@ get_header();
 
 	<div id="primary" class="content-area">
 	<main id="main" class="site-main">
-		<div class="heroimage">
+		<!-- <div class="heroimage"> -->
 		 <h1 class="titel">VELKOMMEN TIL AMEJAS BLOG!</h1>
-		 </div>
+		 <!-- </div> -->
 		
         <nav id="filtrering">
 			<button data-blog="alle" >Alle</button>
@@ -88,8 +88,8 @@ get_header();
     blogs.forEach(blog => {
 		if (filterBlog == "alle" || blog.categories.includes(parseInt(filterBlog))){
     let klon = temp.cloneNode(true).content;
- 	klon.querySelector(".billede").src = blog.billede;
-	klon.querySelector(".dato").textContent = blog.date;
+ 	klon.querySelector(".billede").src = blog.billede.guid;
+	klon.querySelector(".dato").textContent = blog.dato;
 	klon.querySelector("h4").textContent = blog.title.rendered;
     klon.querySelector("article").addEventListener("click", ()=> {location.href = blog.link;})
     container.appendChild(klon);
