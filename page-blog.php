@@ -16,7 +16,7 @@ get_header();
 ?>
 	<template>
   			<article class="blog">
-                <img src="" alt="">
+                <img class="billede" src="" alt="">
                 <p class="dato"></p>
 				  <h4></h4>
         	</article>
@@ -45,7 +45,7 @@ get_header();
 	 let categories;
 	 
 
-     const dbUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/blog?";
+     const dbUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/blog?per_page=100";
 	const catUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/categories?slug=arstider,baeredygtighed,bryllup,inspiration,projekter";
      
 
@@ -88,8 +88,8 @@ get_header();
     blogs.forEach(blog => {
 		if (filterBlog == "alle" || blog.categories.includes(parseInt(filterBlog))){
     let klon = temp.cloneNode(true).content;
- 	klon.querySelector("img").src = blog.billede;
-	klon.querySelector(".dato").textContent = blog.dato;
+ 	klon.querySelector(".billede").src = blog.billede;
+	klon.querySelector(".dato").textContent = blog.date;
 	klon.querySelector("h4").textContent = blog.title.rendered;
     klon.querySelector("article").addEventListener("click", ()=> {location.href = blog.link;})
     container.appendChild(klon);
