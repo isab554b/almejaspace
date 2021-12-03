@@ -40,14 +40,10 @@ nav#filtrering {
   gap: 20px;
   justify-content: center;
 }
-/* STYLING AF FILTRERING PÅ BLOG */
+/* STYLING AF LOOP-VIEW PÅ BLOG */
 h1.titel {
   justify-content: center;
   display: flex;
-}
-
-div.heroimage {
-  margin-top: 0;
 }
 
 main#main.site-main {
@@ -78,4 +74,8 @@ article.blog {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+
+h4 {
+  hyphens: auto;
 }
