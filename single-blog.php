@@ -22,9 +22,9 @@ get_header();
     </div>
 		
 		<article class="single_blog">
-             <h2></h2>
+             <h2 class="titel"></h2>
 			 <p class="beskrivelse"></p>
-                <img src="" alt="">
+                <img class="billede" src="" alt="">
             </article>
 
 		</main>
@@ -40,8 +40,8 @@ get_header();
     }
 
     function visBlogs() {
-	document.querySelector("h2").textContent = blog.title.rendered;
- 	document.querySelector("img").src =  blog.billede.guid;
+	document.querySelector(".titel").textContent = blog.title.rendered;
+ 	document.querySelector(".billede").src =  blog.billede.guid;
 	document.querySelector(".beskrivelse").textContent = blog.beskrivelse;
 	
 } 

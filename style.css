@@ -39,11 +39,18 @@ nav#filtrering {
   flex-direction: row;
   gap: 20px;
   justify-content: center;
+  overflow-x: auto;
+  flex-wrap: wrap;
 }
+
 /* STYLING AF LOOP-VIEW PÅ BLOG */
 h1.titel {
   justify-content: center;
   display: flex;
+}
+
+div.container.content-wrapper {
+  max-width: fit-content;
 }
 
 main#main.site-main {
@@ -55,8 +62,7 @@ main#main.site-main {
 section.blogcontainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 35px;
-  margin: 25px 100px 50px 100px;
+  gap: 20px;
   padding: 20px;
 }
 
@@ -68,14 +74,41 @@ article.blog {
   flex-direction: column;
 }
 
-.heroimage {
+/* .heroimage {
   background-image: url("img/heroimg.jpg");
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-}
+} */
 
 h4 {
   hyphens: auto;
+}
+
+button.valgt {
+  background-color: #f3a2b1;
+  color: #f7f1bc;
+  border: #f7f1bc;
+}
+
+/* STYLING AF SINGLE-VIEW PÅ BLOG */
+h2.titel {
+  display: flex;
+  justify-content: center;
+}
+
+p.beskrivelse {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: fit-content;
+  }
 }
