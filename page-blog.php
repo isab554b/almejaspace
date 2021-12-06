@@ -16,9 +16,9 @@ get_header();
 ?>
 	<template>
   			<article class="blog">
+				   <p class="dato"></p>
                 <img class="billede" src="" alt="">
-                <p class="dato"></p>
-				  <h4></h4>
+				  <h4 class="overskrift"></h4>
         	</article>
         </template>
 
@@ -27,16 +27,23 @@ get_header();
 
 	<div id="primary" class="content-area">
 	<main id="main" class="site-main">
-		<!-- <div class="heroimage"> -->
-		 <h1 class="titel">VELKOMMEN TIL AMEJAS BLOG!</h1>
-		 <!-- </div> -->
-		
+
+	<div class="heroimg">
+		 <h1 class="titel">VELKOMMEN TIL ALMEJAS BLOG!</h1>
+		</div>
+
+	<div class="tekst">
+		<p>Her deler vi nye gode idéer, farver, tips og tricks 
+		som inspiration til din næste farverige begivenhed eller stylingprojekt.</p>
+	</div>
+
         <nav id="filtrering">
 			<button data-blog="alle" >Alle</button>
 		</nav>
 		
         <section class="blogcontainer">
         </section>
+		
         </main>
  <script>
 
@@ -90,7 +97,7 @@ get_header();
     let klon = temp.cloneNode(true).content;
  	klon.querySelector(".billede").src = blog.billede.guid;
 	klon.querySelector(".dato").textContent = blog.dato;
-	klon.querySelector("h4").textContent = blog.title.rendered;
+	klon.querySelector(".overskrift").textContent = blog.title.rendered;
     klon.querySelector("article").addEventListener("click", ()=> {location.href = blog.link;})
     container.appendChild(klon);
 	}

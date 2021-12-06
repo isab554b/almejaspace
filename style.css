@@ -44,19 +44,28 @@ nav#filtrering {
 }
 
 /* STYLING AF LOOP-VIEW PÅ BLOG */
+main#main.site-main {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 h1.titel {
   justify-content: center;
   display: flex;
 }
 
-div.container.content-wrapper {
-  max-width: fit-content;
+h4.overskrift {
+  padding-left: 25px;
 }
 
-main#main.site-main {
+.heroimg {
+  background-image: url("img/heroimg.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  padding-left: 0;
-  padding-right: 0;
+  margin-top: -140px;
 }
 
 section.blogcontainer {
@@ -69,27 +78,20 @@ section.blogcontainer {
 article.blog {
   background-color: #f7f1bc;
   cursor: pointer;
-  padding: 25px 25px 0px 25px;
   display: flex;
   flex-direction: column;
 }
 
-/* .heroimage {
-  background-image: url("img/heroimg.jpg");
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-} */
-
-h4 {
-  hyphens: auto;
+p.dato {
+  padding: 10px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: end;
 }
 
-button.valgt {
-  background-color: #f3a2b1;
-  color: #f7f1bc;
-  border: #f7f1bc;
+div.tekst {
+  display: flex;
+  justify-content: center;
 }
 
 /* STYLING AF SINGLE-VIEW PÅ BLOG */
@@ -101,6 +103,7 @@ h2.titel {
 p.beskrivelse {
   margin-left: 80px;
   margin-right: 80px;
+  margin-top: 40px;
 }
 
 @media (min-width: 1200px) {

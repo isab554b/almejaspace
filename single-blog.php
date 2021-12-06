@@ -41,7 +41,7 @@ get_header();
 
     function visBlogs() {
 	document.querySelector(".titel").textContent = blog.title.rendered;
- 	document.querySelector(".billede").src =  blog.billede.guid;
+ 	document.querySelector(".billede").src = blog.billede.guid;
 	document.querySelector(".beskrivelse").textContent = blog.beskrivelse;
 	
 } 
