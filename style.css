@@ -118,3 +118,7 @@ article.single_blog {
     max-width: fit-content;
   }
 }
+
+a {
+  text-decoration: none;
+}
