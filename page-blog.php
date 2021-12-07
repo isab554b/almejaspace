@@ -30,7 +30,7 @@ get_header();
 	<main id="main" class="site-main">
 
 	<div class="heroimg">
-		 <h1 class="titel">VELKOMMEN TIL ALMEJAS BLOG!</h1>
+		 <h2 class="titel">VELKOMMEN TIL ALMEJAS BLOG!</h2>
 		</div>
 
 	<div class="tekst">
@@ -55,7 +55,7 @@ get_header();
 	 
 
      const dbUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/blog?per_page=100";
-	const catUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/categories?slug=arstider,baeredygtighed,bryllup,inspiration,projekter";
+	const catUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/categories?slug=arstider,baeredygtighed,bryllup,inspiration";
      
 
     async function getJson() {

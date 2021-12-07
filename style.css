@@ -16,6 +16,16 @@ h1.entry-title.page-title {
   display: none;
 }
 
+/* FJERNER STREGER UNDR LINKS  */
+.entry-content a {
+  text-decoration: none;
+}
+
+/* HOVER PÅ MENU  */
+.main-navigation li a:hover {
+  color: #e84a1e;
+}
+
 /* KONTAKTFORMULAR PÅ KONTAKTSIDE */
 textarea {
   resize: none;
@@ -46,6 +56,7 @@ nav#filtrering {
   justify-content: center;
   overflow-x: auto;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 /* STYLING AF LOOP-VIEW PÅ BLOG */
@@ -55,23 +66,30 @@ main#main.site-main {
   padding-right: 0;
 }
 
-h1.titel {
+div.row.main-row {
+  justify-content: center;
+}
+
+h2.titel {
   justify-content: center;
   display: flex;
+  color: #e84a1e;
 }
 
 h4.overskrift {
-  padding-left: 25px;
+  color: #f7f1bc;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
-.heroimg {
+/* .heroimg {
   background-image: url("img/heroimg.jpg");
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  margin-top: -140px;
-}
+  margin-top: -130px;
+} */
 
 section.blogcontainer {
   display: grid;
@@ -81,7 +99,7 @@ section.blogcontainer {
 }
 
 article.blog {
-  background-color: #f7f1bc;
+  background-color: #a4cdef;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -92,6 +110,7 @@ p.dato {
   margin-bottom: 0px;
   display: flex;
   justify-content: end;
+  color: #f7f1bc;
 }
 
 div.tekst {
@@ -107,6 +126,16 @@ img.billede:hover {
 article.single_blog {
   display: flex;
   flex-direction: column;
+  padding: 20px;
+}
+
+div.billede_container {
+  display: flex;
+  justify-content: center;
+}
+
+img.billede_single {
+  max-width: 80%;
 }
 
 @media (min-width: 1200px) {
@@ -119,6 +148,20 @@ article.single_blog {
   }
 }
 
-a {
-  text-decoration: none;
+@media (max-width: 580px) {
+  article.single_blog {
+    padding: 20px;
+  }
+
+  div.goback_button {
+    padding: 20px;
+  }
+
+  img.billede_single {
+    max-width: 100%;
+  }
+
+  div.tekst {
+    margin-left: 20px;
+  }
 }
