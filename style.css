@@ -33,6 +33,11 @@ button#wpforms-submit-409.wpforms-submit:hover {
   border: 2px solid #f7f1bc;
 }
 
+div.wpforms-submit-container {
+  display: flex;
+  justify-content: center;
+}
+
 /* STYLING AF FILTRERING PÅ BLOG */
 nav#filtrering {
   display: flex;
@@ -94,16 +99,14 @@ div.tekst {
   justify-content: center;
 }
 
-/* STYLING AF SINGLE-VIEW PÅ BLOG */
-h2.titel {
-  display: flex;
-  justify-content: center;
+img.billede:hover {
+  opacity: 0.5;
 }
 
-p.beskrivelse {
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 40px;
+/* STYLING AF SINGLE-VIEW PÅ BLOG */
+article.single_blog {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 1200px) {

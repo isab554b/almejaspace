@@ -26,6 +26,7 @@ get_header();
 
 
 	<div id="primary" class="content-area">
+		<section class="blogsection">
 	<main id="main" class="site-main">
 
 	<div class="heroimg">
@@ -45,6 +46,7 @@ get_header();
         </section>
 		
         </main>
+		</section>
  <script>
 
 
