@@ -115,3 +115,7 @@ p.beskrivelse {
     max-width: fit-content;
   }
 }
+
+a {
+  text-decoration: none;
+}
