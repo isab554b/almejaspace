@@ -17,8 +17,6 @@ get_header();
 
 ?>
 
-<section id="splash_section"></section>
-
 	<template>
   			<article class="blog">
 				   <p class="dato"></p>
@@ -34,9 +32,9 @@ get_header();
 		<section class="blogsection">
 	<main id="main" class="site-main">
 
-	<div class="heroimg">
+	<section id="splash_section">
 		 <h2 class="titel">VELKOMMEN TIL ALMEJAS BLOG!</h2>
-		</div>
+	</section>
 
 	<div class="tekst">
 		<p>Her deler vi nye gode idéer, farver, tips og tricks 
