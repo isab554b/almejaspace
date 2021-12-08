@@ -45,6 +45,10 @@ h1.entry-title.page-title {
   place-content: center;
 }
 
+body {
+  margin: 0;
+}
+
 #splash_section {
   max-width: none;
 }
