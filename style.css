@@ -21,22 +21,9 @@ h1.entry-title.page-title {
   text-decoration: none;
 }
 
-/* HOVER PÅ MENU  */
-/* .main-navigation ul a:hover {
-  color: #e84a1e;
-} */
-
-/* .bottom-header-row,
-.bottom-header-row .header-contact a,
-.bottom-header-row .main-navigation .menu > li > a:hover {
-  color: #e84a1e;
-} */
-
-.menu > li > a {
-  color: #e84a1e;
-}
 /* FARVE PÅ INDKØBSKURV OG SØGEFUNKTION */
-symbol .ws-svg-icon svg {
+.site-header .header-item svg:not(.stroke-based),
+.site-header .dropdown-symbol .ws-svg-icon svg {
   fill: #e84a1e;
 }
 
