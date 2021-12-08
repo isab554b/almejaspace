@@ -22,7 +22,13 @@ h1.entry-title.page-title {
 }
 
 /* HOVER PÅ MENU  */
-.main-navigation ul a:hover {
+/* .main-navigation ul a:hover {
+  color: #e84a1e;
+} */
+
+.bottom-header-row,
+.bottom-header-row .header-contact a,
+.bottom-header-row .main-navigation .menu > li > a:hover {
   color: #e84a1e;
 }
 
