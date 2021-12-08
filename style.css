@@ -26,12 +26,15 @@ h1.entry-title.page-title {
   color: #e84a1e;
 } */
 
-.bottom-header-row,
+/* .bottom-header-row,
 .bottom-header-row .header-contact a,
 .bottom-header-row .main-navigation .menu > li > a:hover {
   color: #e84a1e;
-}
+} */
 
+.bottom-header-row .main-navigation .menu > li > a {
+  color: #e84a1e;
+}
 /* FARVE PÅ INDKØBSKURV OG SØGEFUNKTION */
 symbol .ws-svg-icon svg {
   fill: #e84a1e;
