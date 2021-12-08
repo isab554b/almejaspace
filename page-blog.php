@@ -12,8 +12,13 @@
  * @package Botiga
  */
 
+
 get_header();
+
 ?>
+
+<section id="splash_section"></section>
+
 	<template>
   			<article class="blog">
 				   <p class="dato"></p>
