@@ -22,9 +22,13 @@ h1.entry-title.page-title {
 }
 
 /* HOVER PÅ MENU  */
-.main-navigation li a:hover {
+.main-navigation ul a:hover {
   color: #e84a1e;
 }
+
+/* FARVE PÅ INDKØBSKURV OG SØGEFUNKTION */
+.site-header .header-item svg:not(.stroke-based), .site-header .dropdown-symbol .ws-svg-icon svg {
+  fill: #E84A1E;
 
 /* KONTAKTFORMULAR PÅ KONTAKTSIDE */
 textarea {
