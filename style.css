@@ -21,10 +21,8 @@ h1.entry-title.page-title {
   text-decoration: none;
 }
 
-/* FARVE PÅ INDKØBSKURV OG SØGEFUNKTION */
-.site-header .header-item svg:not(.stroke-based),
-.site-header .dropdown-symbol .ws-svg-icon svg {
-  fill: #e84a1e;
+.main-navigation ul {
+  font-size: 18px;
 }
 
 /* HERO BILLEDE PÅ PAGE BLOG */
