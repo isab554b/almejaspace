@@ -17,7 +17,7 @@ get_header();
 
 ?>
 
-<div class="wp-block-cover alignfull" style="min-height:300px"><img loading="lazy" width="2048" height="1138" class="wp-block-cover__image-background wp-image-242" alt="" src="https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2.jpg" data-object-fit="cover" srcset="https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2.jpg 2048w, https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2-420x233.jpg 420w, https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2-800x445.jpg 800w, https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2-300x167.jpg 300w, https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2-1024x569.jpg 1024w, https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2-768x427.jpg 768w, https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2-1536x854.jpg 1536w, https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2-1140x633.jpg 1140w, https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2-920x511.jpg 920w, https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-content/uploads/2021/07/Hero2-380x211.jpg 380w" sizes="(max-width: 2048px) 100vw, 2048px"><div class="wp-block-cover__inner-container">
+<div class="wp-block-cover alignfull" style="min-height:300px"> <img src="img/stars.jpg" alt="">
 <h2 class="has-text-align-center has-text-color" style="color:#e84a1e">PROJEKTGALLERI</h2>
 </div></div>
 
