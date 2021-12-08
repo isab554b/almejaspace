@@ -17,6 +17,10 @@ get_header();
 
 ?>
 
+	<section id="splash_section">
+		 <h2 class="titel">VELKOMMEN TIL ALMEJAS BLOG!</h2>
+	</section>
+
 	<template>
   			<article class="blog">
 				   <p class="dato"></p>
@@ -25,16 +29,9 @@ get_header();
         	</article>
         </template>
 
-	
-
-
 	<div id="primary" class="content-area">
 		<section class="blogsection">
 	<main id="main" class="site-main">
-
-	<section id="splash_section">
-		 <h2 class="titel">VELKOMMEN TIL ALMEJAS BLOG!</h2>
-	</section>
 
 	<div class="tekst">
 		<p>Her deler vi nye gode idéer, farver, tips og tricks 
