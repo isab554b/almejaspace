@@ -17,9 +17,9 @@ get_header();
 
 ?>
 
-<div class="wp-block-cover alignfull" style="min-height:300px"> <img src="img/stars.jpg" alt="">
+<!-- <div class="wp-block-cover alignfull" style="min-height:300px"> <img src="img/stars.jpg" alt="">
 <h2 class="has-text-align-center has-text-color" style="color:#e84a1e">PROJEKTGALLERI</h2>
-</div></div>
+</div></div> -->
 
 	<section id="splash_section">
 		 <h2 class="titel">BLOG</h2>
