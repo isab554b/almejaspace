@@ -122,6 +122,7 @@ nav#filtrering {
   overflow-x: auto;
   flex-wrap: wrap;
   margin-bottom: 40px;
+  padding: 20px;
 }
 
 /* STYLING AF LOOP-VIEW PÅ BLOG */
@@ -239,5 +240,11 @@ img.billede_single {
   }
   h2.titel {
     margin-top: 100px;
+  }
+  div.tekst {
+    padding: 20px;
+  }
+  p {
+    margin-bottom: 0;
   }
 }
