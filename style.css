@@ -25,6 +25,10 @@ h1.entry-title.page-title {
   font-size: 18px;
 }
 
+.bottom-header-row .main-navigation .menu > li > a:hover {
+  color: #e84a1e !important;
+}
+
 /* HERO BILLEDE PÅ PAGE BLOG */
 /* #splash_section {
   margin-top: -80px;
