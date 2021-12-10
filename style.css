@@ -130,7 +130,7 @@ main#main.site-main {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
-  margin-top: 270px;
+  margin-top: 260px;
 }
 
 div.row.main-row {
@@ -240,7 +240,7 @@ img.billede_single {
   }
 
   h2.titel {
-    margin-top: 100px;
+    margin-top: 150px;
   }
 
   p {
@@ -250,9 +250,5 @@ img.billede_single {
   #splash_section {
     margin-top: 100px;
     height: 47vh;
-  }
-
-  main#main.site-main {
-    margin-top: 260px;
   }
 }
