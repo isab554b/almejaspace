@@ -122,7 +122,7 @@ nav#filtrering {
   overflow-x: auto;
   flex-wrap: wrap;
   margin-bottom: 40px;
-  padding: 20px;
+  padding: 15px;
 }
 
 /* STYLING AF LOOP-VIEW PÅ BLOG */
@@ -130,7 +130,7 @@ main#main.site-main {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
-  margin-top: 280px;
+  margin-top: 270px;
 }
 
 div.row.main-row {
@@ -163,7 +163,7 @@ section.blogcontainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
-  padding: 20px;
+  padding: 15px;
 }
 
 article.blog {
@@ -187,6 +187,7 @@ div.tekst {
   font-size: 18px;
   margin-top: 55px;
   margin-bottom: 10px;
+  padding: 15px;
 }
 
 img.billede:hover {
@@ -242,11 +243,16 @@ img.billede_single {
     margin-top: 100px;
   }
 
-  div.tekst {
-    padding: 20px;
-  }
-
   p {
     margin-bottom: 0;
+  }
+
+  #splash_section {
+    margin-top: 100px;
+    height: 47vh;
+  }
+
+  main#main.site-main {
+    margin-top: 260px;
   }
 }
