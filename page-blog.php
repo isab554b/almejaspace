@@ -12,8 +12,19 @@
  * @package Botiga
  */
 
+
 get_header();
+
 ?>
+
+<!-- <div class="wp-block-cover alignfull" style="min-height:300px"> <img src="img/stars.jpg" alt="">
+<h2 class="has-text-align-center has-text-color" style="color:#e84a1e">PROJEKTGALLERI</h2>
+</div></div> -->
+
+	<section id="splash_section">
+		 <h2 class="titel">BLOG</h2>
+	</section>
+
 	<template>
   			<article class="blog">
 				<p class="dato"></p>
@@ -22,20 +33,13 @@ get_header();
         	</article>
     </template>
 
-	
-
-
 	<div id="primary" class="content-area">
 		<section class="blogsection">
 	<main id="main" class="site-main">
 
-	<div class="heroimg">
-		 <h2 class="titel">VELKOMMEN TIL ALMEJAS BLOG!</h2>
-		</div>
-
 	<div class="tekst">
-		<p>Her deler vi nye gode idéer, farver, tips og tricks 
-		som inspiration til din næste farverige begivenhed eller stylingprojekt.</p>
+		<p>Velkommen til vores blog! Her deler vi nye gode idéer, farver, guides, tips og tricks 
+		til inspiration til din næste farverige begivenhed eller stylingprojekt.</p>
 	</div>
 
         <nav id="filtrering">
