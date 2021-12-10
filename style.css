@@ -209,6 +209,7 @@ img.billede_single {
   max-width: 80%;
 }
 
+/* WEB */
 @media (min-width: 1200px) {
   .container,
   .container-sm,
@@ -217,11 +218,13 @@ img.billede_single {
   .container-xl {
     max-width: fit-content;
   }
+
   section.blogcontainer {
     max-width: 1110px;
   }
 }
 
+/* MOBIL */
 @media (max-width: 580px) {
   article.single_blog {
     padding: 20px;
@@ -235,15 +238,14 @@ img.billede_single {
     max-width: 100%;
   }
 
-  div.tekst {
-    margin-left: 20px;
-  }
   h2.titel {
     margin-top: 100px;
   }
+
   div.tekst {
     padding: 20px;
   }
+
   p {
     margin-bottom: 0;
   }
