@@ -27,11 +27,11 @@ get_header();
 
 	<template>
   			<article class="blog">
-				   <p class="dato"></p>
+				<p class="dato"></p>
                 <img class="billede" src="" alt="">
-				  <h4 class="overskrift"></h4>
+				<h4 class="overskrift"></h4>
         	</article>
-        </template>
+    </template>
 
 	<div id="primary" class="content-area">
 		<section class="blogsection">
@@ -43,7 +43,7 @@ get_header();
 	</div>
 
         <nav id="filtrering">
-			<button data-blog="alle" >Alle</button>
+			<button data-blog="alle">Alle</button>
 		</nav>
 		
         <section class="blogcontainer">
@@ -54,11 +54,11 @@ get_header();
  <script>
 
 
-     let blogs;
-	 let categories;
+    let blogs;
+	let categories;
 	 
 
-     const dbUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/blog?per_page=100";
+    const dbUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/blog?per_page=100";
 	const catUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/categories?slug=arstider,baeredygtighed,bryllup,inspiration";
      
 

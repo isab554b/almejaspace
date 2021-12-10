@@ -16,7 +16,7 @@ h1.entry-title.page-title {
   display: none;
 }
 
-/* FJERNER STREGER UNDR LINKS  */
+/* FJERNER STREGER UNDER LINKS  */
 .entry-content a {
   text-decoration: none;
 }
