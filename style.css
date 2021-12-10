@@ -156,7 +156,6 @@ section.blogcontainer {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
   padding: 20px;
-  max-width: 1110px;
 }
 
 article.blog {
@@ -209,6 +208,9 @@ img.billede_single {
   .container-lg,
   .container-xl {
     max-width: fit-content;
+  }
+  section.blogcontainer {
+    max-width: 1110px;
   }
 }
 
