@@ -258,4 +258,9 @@ img.billede_single {
     gap: 15px;
     padding: 15px;
   }
+
+  nav#filtrering {
+    gap: 15px;
+    margin-bottom: 15px;
+  }
 }
