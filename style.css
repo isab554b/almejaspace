@@ -263,10 +263,4 @@ img.billede_single {
     gap: 15px;
     margin-bottom: 15px;
   }
-
-  div.wp-block-columns {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
-    gap: 15px;
-  }
 }
