@@ -251,4 +251,8 @@ img.billede_single {
     margin-top: 100px;
     height: 47vh;
   }
+
+  section.blogcontainer {
+    max-width: 150px;
+  }
 }
