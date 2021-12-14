@@ -277,4 +277,8 @@ img.billede_single {
   ul#menu-footer.menu {
     text-align: center;
   }
+
+  h2.has-text-color {
+    font-size: 40px;
+  }
 }
