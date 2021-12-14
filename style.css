@@ -269,4 +269,12 @@ img.billede_single {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
     gap: 15px;
   }
+
+  p.has-text-align-right {
+    text-align: center;
+  }
+
+  ul#menu-footer.menu {
+    text-align: center;
+  }
 }
