@@ -264,9 +264,9 @@ img.billede_single {
     margin-bottom: 15px;
   }
 
-  div.wp-block-columns {
+  /* div.wp-block-columns {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
     gap: 15px;
-  }
+  } */
 }
