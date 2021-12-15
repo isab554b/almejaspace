@@ -59,7 +59,7 @@ h1.entry-title.page-title {
 
 #splash_section {
   position: absolute;
-  background-image: url(img/stars.jpg);
+  background-image: url(img/hero_blog.jpg);
 
   top: 0;
   left: 0;
@@ -69,7 +69,7 @@ h1.entry-title.page-title {
   padding: 0;
 
   width: 100%;
-  height: 35vh;
+  height: 300px;
   max-width: none;
   max-height: none;
 
@@ -78,6 +78,8 @@ h1.entry-title.page-title {
   border: none;
   box-shadow: none;
   margin-top: 203.5px;
+  background-size: cover;
+  background-position: center;
 
   display: flex;
   place-content: center;
@@ -203,7 +205,19 @@ img.billede_single {
 
 /* HEROIMG PÅ SHOP */
 .woocommerce-page-header {
-  background-image: url(img/stars.jpg);
+  background-image: url(img/hero_shop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+/* H1 PÅ SHOP */
+h1.woocommerce-products-header__title.page-title {
+  font-size: 48px;
+  color: #e84a1e;
+  margin: 40px;
 }
 
 /* WEB */
@@ -245,7 +259,6 @@ img.billede_single {
 
   #splash_section {
     margin-top: 100px;
-    height: 47vh;
   }
 
   section.blogcontainer {
@@ -275,6 +288,14 @@ img.billede_single {
   }
 
   h2.has-text-color {
+    font-size: 35px;
+  }
+
+  header.woocommerce-page-header.woocommerce-page-header-style1.woocommerce-page-header-alignment-center {
+    margin-bottom: -145px;
+  }
+
+  h1.woocommerce-products-header__title.page-title {
     font-size: 35px;
   }
 }
