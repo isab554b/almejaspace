@@ -263,6 +263,10 @@ button.filter:hover {
     font-size: 35px;
   }
 
+  h2.titel {
+    font-size: 35px;
+  }
+
   header.woocommerce-page-header.woocommerce-page-header-style1.woocommerce-page-header-alignment-center {
     margin-bottom: -145px;
   }
