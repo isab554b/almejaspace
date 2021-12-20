@@ -30,33 +30,6 @@ h1.entry-title.page-title {
 }
 
 /* HERO BILLEDE PÅ PAGE BLOG */
-/* #splash_section {
-  margin-top: -80px;
-  width: 100%;
-  height: 35vh;
-  background-image: url(img/stars.jpg);
-  background-size: cover;
-  background-position: 100%;
-
-  display: grid;
-  place-content: center;
-} */
-
-/* #splash_section {
-  position: relative;
-  background-size: cover;
-  background-position: 50%;
-  min-height: 430px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1em;
-  box-sizing: border-box;
-  max-width: 100vw;
-  width: 100vw;
-} */
-
 #splash_section {
   position: absolute;
   background-image: url(img/hero_blog.jpg);
@@ -88,10 +61,6 @@ h1.entry-title.page-title {
 body {
   margin: 0;
 }
-
-/* #splash_section {
-  max-width: none;
-} */
 
 /* KONTAKTFORMULAR PÅ KONTAKTSIDE */
 textarea {
@@ -224,6 +193,11 @@ h1.woocommerce-products-header__title.page-title {
   margin: 40px;
 }
 
+button.filter:hover {
+  color: #f7f1bc;
+  border: 2px solid #f7f1bc;
+}
+
 /* WEB */
 @media (min-width: 1200px) {
   .container,
@@ -276,12 +250,6 @@ h1.woocommerce-products-header__title.page-title {
     gap: 15px;
     margin-bottom: 15px;
   }
-
-  /* div.wp-block-columns {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
-    gap: 15px;
-  } */
 
   p.has-text-align-right {
     text-align: center;

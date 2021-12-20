@@ -32,6 +32,7 @@ get_header();
 		<section class="blogsection">
 	<main id="main" class="site-main">
 
+	
 	<div class="tekst">
 		<p>Velkommen til vores blog! Her deler vi nye gode idéer, farver, guides, tips og tricks 
 		til inspiration til din næste farverige begivenhed eller stylingprojekt.</p>
@@ -77,6 +78,7 @@ get_header();
 	function addEventListenersToButtons() {
 	document.querySelectorAll("#filtrering button").forEach(elm =>{
 		elm.addEventListener("click", filtrering);
+		
 	})
 	}
 
